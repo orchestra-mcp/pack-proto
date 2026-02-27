@@ -1,0 +1,14 @@
+{
+    "name": "orchestra-mcp/pack-proto",
+    "description": "Protobuf and gRPC skills for Go-Rust communication",
+    "version": "0.1.0",
+    "type": "pack",
+    "license": "MIT",
+    "stacks": ["go", "rust"],
+    "contents": {
+        "skills": ["proto-grpc"],
+        "agents": ["quic-protocol"],
+        "hooks": []
+    },
+    "tags": ["proto", "grpc", "buf", "quic", "protobuf"]
+}
